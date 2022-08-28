@@ -1,2 +1,2 @@
 # vtugpacalculator
-VTU GPA CALCULATOR for VTU students
+VTU GPA CALCULATOR

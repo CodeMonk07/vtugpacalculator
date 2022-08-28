@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/84ab74962b.js"></script>
+    <script type="text/javascript" src="js/gpaplanner.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>VTU GPA CALCULATOR</h1>
+      <hr>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="index.html">VTU GPA Calculator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                First Year
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="phy.html">Physics Cycle</a>
+                <a class="dropdown-item " href="chem.html">Chemistry Cycle</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ECE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="ece/ece3.html">Third Semester</a>
+                <a class="dropdown-item" href="ece/ece4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="ece/ece5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="ece/ece6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="ece/ece7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="ece/ece8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CSE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="cse/cse3.html">Third Semester</a>
+                <a class="dropdown-item" href="cse/cse4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="cse/cse5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="cse/cse6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="cse/cse7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="cse/cse8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ISE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="ise/ise3.html">Third Semester</a>
+                <a class="dropdown-item" href="ise/ise4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="ise/ise5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="ise/ise6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="ise/ise7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="ise/ise8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                AIML
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../aiml/aiml3.html">Third Semester</a>
+                <a class="dropdown-item" href="../aiml/aiml4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="../aiml/aiml5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="../aiml/aiml6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="../aiml/aiml7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="../aiml/aiml8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EEE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="eee/eee3.html">Third Semester</a>
+                <a class="dropdown-item" href="eee/eee4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="eee/eee5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="eee/eee6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="eee/eee7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="eee/eee8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ME
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="me/me3.html">Third Semester</a>
+                <a class="dropdown-item" href="me/me4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="me/me5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="me/me6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="me/me7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="me/me8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="ce/ce3.html">Third Semester</a>
+                <a class="dropdown-item" href="ce/ce4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="ce/ce5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="ce/ce6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="ce/ce7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="ce/ce8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EIE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="eie/eie3.html">Third Semester</a>
+                <a class="dropdown-item" href="eie/eie4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="eie/eie5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="eie/eie6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="eie/eie7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="eie/eie8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ETE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../ete/ete3.html">Third Semester</a>
+                <a class="dropdown-item" href="../ete/ete4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="../ete/ete5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="../ete/ete6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="../ete/ete7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="../ete/ete8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                IEM
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="iem/iem3.html">Third Semester</a>
+                <a class="dropdown-item" href="iem/iem4.html">Fourth Semester</a>
+                <a class="dropdown-item" href="iem/iem5.html">Fifth Semester</a>
+                <a class="dropdown-item" href="iem/iem6.html">Sixth Semester</a>
+                <a class="dropdown-item" href="iem/iem7.html">Seventh Semester</a>
+                <a class="dropdown-item" href="iem/iem8.html">Eighth Semester</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <h3><strong>GPA Planner </strong></h3>
+      <hr>
+      <ul>
+        <li>This tool is only for students of 2018 Scheme and higher. 2017 Scheme students please refrain from using this tool.</li>
+        <li>This is GPA Planner which will give you approximate GPA to aim for each semester to score target GPA at the end of particular semester.</li>
+        <li>For example: You've to score 9 CGPA at the end of 6th semester and your first and second semester has passed and you've got 8.55 and 8.85 respectively.
+          So, to know how much approximately you've to aim for in next 4 semesters to get 9 CGPA after 6th semester you can use this tool.
+        </li>
+        <li>Correct way of typing SGPAs is "8.45,8.85,7.95" without quotes. Don't type like this "8.45, 8.85, 7.95".</li>
+        <li>Watch the video for more help and visual example. <a href="https://youtu.be/6GEp8B0xlKM">WATCH HERE</a></li>
+      </ul>
+      <hr>
+      <form class="myForm">
+        <div class="row">
+            <div class=" col-md-4 offset-md-3  ">
+              <label class="targetgpa">Target GPA </label>
+            </div>
+            <div class=" col-md-1 offset-md-0">
+              <input type="number" name="1" id="targetgpaplaceholder" placeholder="Target GPA...">
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-4 offset-md-3  ">
+              <label class="end">Find GPA at the end of </label>
+            </div>
+            <div class=" col-md-1 offset-md-0">
+              <input type="number" name="2" id="endholder" placeholder="End semester">
+            </div>
+        </div>
+        <div class="row">
+          <div class=" col-md-4 offset-md-3  ">
+            <label class="gpaplanner1">No of semesters' GPA is known</label>
+          </div>
+          <div class=" col-md-1 offset-md-0">
+            <input type="number" name="3" id="gpaplaceholder" placeholder="Number...">
+          </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-4 offset-md-3  ">
+              <label class="typegpa">Type GPA separated by comma (,) </label>
+            </div>
+            <div class=" col-md-1 offset-md-0">
+              <input type="text" name="4" id="typegpaplaceholder" placeholder="8.45,8.85,7.95">
+            </div>
+        </div>
+      </form>
+      <button class="plansubmit" type="button" name="button">PLAN <i class="fa fa-calculator" aria-hidden="true"></i></button>
+      <hr>
+      <span class="plannedgpa"></span>
+    </div>
+  </body>
+</html>
